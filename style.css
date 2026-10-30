@@ -1,0 +1,20 @@
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"Segoe UI","Malgun Gothic","Apple SD Gothic Neo",sans-serif;color:#1f2937;line-height:1.7;background:#fff}
+a{color:#2563eb}.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid #e5e7eb}header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none;color:#111}.brand img{width:32px;height:32px}
+nav a{margin-left:16px;text-decoration:none;color:#4b5563;font-size:.95em}
+.hero{text-align:center;padding:64px 0 48px;background:linear-gradient(#f0f6ff,#fff)}.hero img{width:96px}
+.hero h1{font-size:2.2em;margin:.3em 0}.hero p{font-size:1.15em;color:#4b5563}
+.btn{display:inline-block;padding:12px 26px;border-radius:8px;font-weight:600;text-decoration:none;border:0;font-size:1em}
+.btn-primary{background:#9ca3af;color:#fff;cursor:not-allowed}.btn-ghost{border:1px solid #2563eb;color:#2563eb}
+.notice{background:#fff7ed;border-left:4px solid #f97316;padding:14px 18px;border-radius:6px;margin:24px 0}
+section{padding:40px 0}h2{font-size:1.6em;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{border:1px solid #e5e7eb;border-radius:10px;padding:20px}.card h3{margin-top:0}
+.price{font-size:1.8em;font-weight:700}.featured{border:2px solid #2563eb}
+table{width:100%;border-collapse:collapse;font-size:.95em}th,td{border:1px solid #e5e7eb;padding:8px 10px;text-align:left;vertical-align:top}th{background:#f9fafb}
+.tablewrap{overflow-x:auto}.en{background:#f9fafb;border-radius:10px;padding:24px}
+.placeholder{background:#fef08a;padding:0 4px;border-radius:3px;font-weight:600}
+footer{border-top:1px solid #e5e7eb;padding:28px 0;color:#6b7280;font-size:.9em}footer a{margin-right:14px}
+.doc{padding:40px 0}.doc h1{font-size:1.8em}.doc h2{font-size:1.25em;margin-top:1.6em}
+@media(max-width:600px){.hero h1{font-size:1.7em}nav a{margin-left:10px}}
